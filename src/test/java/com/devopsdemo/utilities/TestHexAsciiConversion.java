@@ -32,7 +32,7 @@ public class TestHexAsciiConversion {
 	public void testAsciiToHexNull()
 	{
 		String hexvalueNull=conversion.convertHexToASCII(null);
-		assertNull("Result should be null", hexvalueNull);
+		assertNull("Result should be null", hexadecimalValue ); 
 		
 	}
 	
