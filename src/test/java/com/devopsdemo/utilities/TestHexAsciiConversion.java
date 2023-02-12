@@ -23,7 +23,7 @@ public class TestHexAsciiConversion {
 
 	@Test
 	public void testAsciiToHexValid() {
-		String hexadecimalValue= conversion.convertAsciiToHex(Value);
+		String hexadecimalValue= conversion.convertAsciiToHex(null);
 		assertEquals(" ",hexadecimalValue, "74657374696e6720617363696920636f6e76657274696f6e20696e746f2068657861646563696d616c");
 		System.out.println(hexadecimalValue);
 	}
