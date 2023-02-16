@@ -1,4 +1,4 @@
-package com.devopsdemo.utilities;
+package com.edurekademo.utilities;
 
 import java.io.InputStream;
 import java.util.Enumeration;

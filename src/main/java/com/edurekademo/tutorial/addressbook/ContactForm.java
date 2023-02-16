@@ -1,7 +1,7 @@
-package com.devopsdemo.tutorial.addressbook;
+package com.edurekademo.tutorial.addressbook;
 
 import com.vaadin.event.ShortcutAction;
-import com.devopsdemo.tutorial.addressbook.backend.Contact;
+import com.edurekademo.tutorial.addressbook.backend.Contact;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.FormLayout;
 import com.vaadin.ui.HorizontalLayout;

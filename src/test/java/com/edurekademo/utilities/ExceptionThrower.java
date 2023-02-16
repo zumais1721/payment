@@ -1,8 +1,8 @@
-package com.devopsdemo.utilities;
+package com.edurekademo.utilities;
 
 import java.io.IOException;
 
-import com.devopsdemo.utilities.LoggerStackTraceUtil;
+import com.edurekademo.utilities.LoggerStackTraceUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

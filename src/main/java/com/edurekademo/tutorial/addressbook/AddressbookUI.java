@@ -1,4 +1,4 @@
-package com.devopsdemo.tutorial.addressbook;
+package com.edurekademo.tutorial.addressbook;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -8,8 +8,8 @@ import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.annotations.Widgetset;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
-import com.devopsdemo.tutorial.addressbook.backend.Contact;
-import com.devopsdemo.tutorial.addressbook.backend.ContactService;
+import com.edurekademo.tutorial.addressbook.backend.Contact;
+import com.edurekademo.tutorial.addressbook.backend.ContactService;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.UI;
@@ -24,7 +24,7 @@ import com.vaadin.v7.ui.TextField;
  * By default, a new UI instance is automatically created when the page is loaded. To reuse
  * the same instance, add @PreserveOnRefresh.
  */
-@Title("sampleapp")
+@Title("Addressbook")
 @Theme("valo")
 @Widgetset("com.vaadin.v7.Vaadin7WidgetSet")
 public class AddressbookUI extends UI {

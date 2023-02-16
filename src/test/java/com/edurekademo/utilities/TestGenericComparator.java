@@ -1,10 +1,10 @@
-package com.devopsdemo.utilities;
+package com.edurekademo.utilities;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.devopsdemo.utilities.GenericComparator;
-import com.devopsdemo.utilities.CaseInsensitiveComparator;
+import com.edurekademo.utilities.GenericComparator;
+import com.edurekademo.utilities.CaseInsensitiveComparator;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

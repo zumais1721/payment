@@ -1,4 +1,4 @@
-package com.devopsdemo.utilities;
+package com.edurekademo.utilities;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Date;
@@ -12,7 +12,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
         private static final Logger LOG =LoggerFactory.getLogger(CaseInsensitiveComparator.class); 
 
         /*
-         * This functiona call base GenericComparator(boolean sortAscending) class and set whether sorting is in ascending or descending
+         * This function call base GenericComparator(boolean sortAscending) class and set whether sorting is in ascending or descending
          * sortAscending = true then ascending
          * sortAscending = false then descending
          */
@@ -42,7 +42,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
 
         /*
          * (non-Javadoc)
-         * @see com.devopsdemo.utilities.GenericComparator#compare(java.lang.Object, java.lang.Object)
+         * @see com.edurekademo.utilities.GenericComparator#compare(java.lang.Object, java.lang.Object)
          */
         public int compare(Object o1, Object o2) {
                 int response = LESSER;
